@@ -32,13 +32,12 @@ programa
 		//fim d)
 		// inicio e)
 		escreva("\ne) C ^ A + (H * 7) div 3 - 28 mod 3 + (7 * H) / 3: \n")
-		resto=mat.potencia(C,A)
-		operacao=resto + tipo.real_para_inteiro((H * 7) / 3) - 28%3 + (7 * H) / 3
+		operacao=mat.potencia(C,A) + tipo.real_para_inteiro((H * 7) / 3) - 28%3 + (7 * H) / 3
 		escreva(mat.arredondar(operacao,2))
 		//fim e)
 		// inicio f)
 		escreva("\nf)A * B + rad(H * 2 * -C) + D: \n")
-		operacao=mat.potencia(A,B) + mat.raiz((H * 2 * -C),2.0) + D
+		operacao=A*B + mat.raiz((H * 2 * -C),2.0) + D
 		escreva(+operacao)
 		//fim f)
 					
@@ -49,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 369; 
+ * @POSICAO-CURSOR = 1082; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
